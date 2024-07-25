@@ -52,8 +52,8 @@ public class CatalogoLivros {
     public static void main(String[] args) {
         CatalogoLivros catalogoLivros = new CatalogoLivros();
         catalogoLivros.adicionarLivro("Java: como programar","Paul Deitel, Harvey Deitel", 1996);
-        catalogoLivros.adicionarLivro("Java: como programar","Paul Deitel, Harvey Deitel", 1998); //anoP falso
-        catalogoLivros.adicionarLivro("Java: como programar","Paul Deitel, Harvey Deitel", 2000); //anoP falso
+        catalogoLivros.adicionarLivro("Java: como programar","Paul Deitel, Harvey Deitel", 1998); //anoPublicacao falso
+        catalogoLivros.adicionarLivro("Java: como programar","Paul Deitel, Harvey Deitel", 2000); //anoPublicacao falso
         catalogoLivros.adicionarLivro("Fundamentos de Programação em JAVA","Antonio José Mendes, Maria José Marcelino", 2012);
         catalogoLivros.adicionarLivro("Java para Iniciantes: Crie, Compile e Execute Programas Java Rapidamente","Herbert Schildt", 2015);
         System.out.println("Pesquisa por autor:");
