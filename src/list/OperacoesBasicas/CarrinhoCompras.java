@@ -42,11 +42,6 @@ public class CarrinhoCompras {
     public void exibirItens() {
         System.out.println(itemList);
     }
-    public String toString() {
-        return "CarrinhoDeCompras{" +
-                "itens=" + itemList +
-                '}';
-    }
 
     public static void main(String[] args) {
         CarrinhoCompras carrinhoCompras = new CarrinhoCompras();
